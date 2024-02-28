@@ -14,12 +14,10 @@ Exports functions for getting all tasks, getting a task by ID, creating a new ta
 Defines the Mongoose schema for the Task model.
 Contains properties such as title, completed, and createdAt.
 Defaults completed to false and createdAt to the current date.
-Exports the Mongoose model for the Task schema.
 
 * routes/task.js
 Defines the Express router for handling task-related API routes.
 Maps HTTP methods (GET, POST, PUT, DELETE) to corresponding controller functions.
-Exports the router for use in the main server file.
 
 * server.js
 Main entry point for the Express application.
