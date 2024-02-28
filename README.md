@@ -29,7 +29,7 @@ Listens on a specified port (default is 3002) for incoming HTTP requests.
 
 ## Clone Project
 ```bash
-git clone https://github.com/FaztWeb/express-mongodb-crud
+git clone https://github.com/Sajood415/todo-server
 cd todo-server
 ```
 
