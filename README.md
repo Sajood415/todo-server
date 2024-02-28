@@ -2,26 +2,26 @@
 
 ## Project Structure
 
-* 1. config/db.js
+* config/db.js
 Manages the connection to MongoDB using Mongoose.
 Reads the MongoDB connection URL from the environment variables.
 
-* 2. controllers/taskController.js
+* controllers/taskController.js
 Handles CRUD operations for tasks.
 Exports functions for getting all tasks, getting a task by ID, creating a new task, updating a task, and deleting a task.
 
-* 3. models/task.js
+* models/task.js
 Defines the Mongoose schema for the Task model.
 Contains properties such as title, completed, and createdAt.
 Defaults completed to false and createdAt to the current date.
 Exports the Mongoose model for the Task schema.
 
-* 4. routes/task.js
+* routes/task.js
 Defines the Express router for handling task-related API routes.
 Maps HTTP methods (GET, POST, PUT, DELETE) to corresponding controller functions.
 Exports the router for use in the main server file.
 
-* 5. server.js
+* server.js
 Main entry point for the Express application.
 Configures middleware such as CORS, body-parser, and sets up routes.
 Connects to MongoDB using the connectDB function from config/db.js.
