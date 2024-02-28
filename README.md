@@ -26,6 +26,13 @@ Connects to MongoDB using the connectDB function from config/db.js.
 Listens on a specified port (default is 3002) for incoming HTTP requests.
 
 ## Getting Started
+
+## Clone Project
+```bash
+git clone https://github.com/FaztWeb/express-mongodb-crud
+cd todo-server
+```
+
 ## Install dependencies:
 
 ```bash
