@@ -1,5 +1,8 @@
 # Todo App Backend
 
+## Project Overview
+This project is a simple Todo app backend built using Express.js. It connects to a MongoDB database, allowing users to perform basic operations on tasks, such as creating, updating completion status, and deleting.
+
 ## Project Structure
 
 * config/db.js<br>
