@@ -45,7 +45,7 @@ npm install
 ### Set up MongoDB:
 
 Create a MongoDB instance.
-Set the connection URL in the .env file or use the default URL in config/db.js.
+Set the connection URL in the .env file or in config/db.js.
 ```bash
 const DATABASE_URL = process.env.DATABASE_URL || "ADD URL HERE";
 ```
