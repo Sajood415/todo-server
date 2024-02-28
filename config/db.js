@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
+require('dotenv').config();
 
-const DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://sajood415:Sd12345@cluster0.mmlsl0o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const DATABASE_URL = process.env.DATABASE_URL || "ADD URL HERE";
 
 const connectDB = async () => {
   try {
